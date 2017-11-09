@@ -15,6 +15,7 @@
     <% genre = Genre.find(id) %>
     <a href="/genres/<%= genre.slug %>">
       <%= genre.name %>
+      <% binding.pry %>
     </a>
   <% end %>
 </p>
